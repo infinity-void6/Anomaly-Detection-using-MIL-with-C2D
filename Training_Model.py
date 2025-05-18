@@ -3,7 +3,7 @@
 import torch
 from torch import nn, optim
 from torch.amp import autocast, GradScaler
-from I3D_split_train_val_test import create_dataloader
+from C2D_split_train_val_test import create_dataloader
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 from tqdm import tqdm
 import numpy as np
