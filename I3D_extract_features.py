@@ -14,7 +14,7 @@ model = create_resnet(
 ).to(device)
 
 # Load the checkpoint
-checkpoint_path = r"C:\Users\vikra\Downloads\C2D_8x8_R50.pyth"
+checkpoint_path = r".\C2D"
 checkpoint = torch.load(checkpoint_path, map_location=device)
 
 # Load model weights from 'model_state'
