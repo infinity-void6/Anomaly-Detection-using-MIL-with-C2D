@@ -1,1 +1,1 @@
-Anomaly Detection using MIL with I3D CNN
+Anomaly Detection using MIL with C2D CNN
