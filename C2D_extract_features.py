@@ -71,7 +71,7 @@ def extract_features(segments, device, model=feature_extractor):
     return features
 
 if __name__ == "__main__":
-    file = r"E:\MIL\Dataset\Anomaly-Videos\Anomaly-Videos-Part-2\Explosion\Explosion001_x264.mp4"
+    file = r"....\Explosion\Explosion001_x264.mp4"
     list_segment = extract_segments_from_video(file, segment_size=16, target_shape=(320, 320), frame_skip=2)
     device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     features=extract_features([list_segment[0]],device)
