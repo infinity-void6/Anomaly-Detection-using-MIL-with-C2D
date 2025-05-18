@@ -1,6 +1,6 @@
 # Import necessary libraries
 from extract_segments import extract_segments_from_video  # Function to divide videos into segments
-from I3D_extract_features import extract_features # Function to extract features from segments
+from C2D_extract_features import extract_features # Function to extract features from segments
 import torch  # PyTorch for tensor operations and GPU acceleration
 import os  # For file and directory management
 import pandas as pd  # For handling metadata
