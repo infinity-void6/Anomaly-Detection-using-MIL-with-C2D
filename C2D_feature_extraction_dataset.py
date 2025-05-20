@@ -10,8 +10,8 @@ import cv2  # OpenCV for video processing
 
 # Define file paths and output directories
 file_path = r"E:\MIL\metadata.csv"  # Path to the metadata CSV file
-normal_output_dir = r'I3D\normal_features'  # Directory to save normal video features
-anomaly_output_dir = r'I3D\anomaly_features'  # Directory to save anomaly video features
+normal_output_dir = r'C2D\normal_features'  # Directory to save normal video features
+anomaly_output_dir = r'c2D\anomaly_features'  # Directory to save anomaly video features
 
 # Create the directories if they don't exist
 os.makedirs(normal_output_dir, exist_ok=True)
