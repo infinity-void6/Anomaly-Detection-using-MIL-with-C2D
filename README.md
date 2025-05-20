@@ -78,3 +78,8 @@ Evaluation Metrics: AUC, PR curve, ROC, segment scoring
 |Dataset |Backbone	|AUC (%)|	Remarks|
 |--------|----------|-------|--------|
 |UCF-Crime|	C2D CNN	|~73.8	|GRU + MIL ranking loss|
+
+📌 Acknowledgements
+UCF-Crime Dataset
+
+Inspired by the work of Sultani et al., CVPR 2018 and RTFM, ICCV 2021
