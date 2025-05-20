@@ -15,18 +15,19 @@ This project implements a **weakly-supervised anomaly detection** framework for 
 
 ## 🗂️ Project Structure
 
-├── C2D_extract_features.py # Extract features using C2D CNN
-├── extract_segments.py # Segment videos into frames
-├── feature_extraction_dataset.py # Dataset loader for segment batches
-├── C2D_split_train_val_test.py # Dataset splitting and dataloader
-├── Sequential_Model.py # GRU-based MIL anomaly detection model
-├── Training_Model.py # Training script
-├── thresholds.py # ROC, AUC, threshold evaluation
-├── website.py # Streamlit demo interface
-├── verification.py # Ensemble inference module
-├── metadata.csv # Filepaths and labels for dataset
-└── requirements.txt # Python dependencies
-
+| File                          | Description                                   |
+|------------------------------|-----------------------------------------------|
+| `C2D_extract_features.py`     | Extract features using C2D CNN                |
+| `extract_segments.py`         | Segment videos into frames                    |
+| `feature_extraction_dataset.py`| Dataset loader for segment batches            |
+| `C2D_split_train_val_test.py` | Dataset splitting and dataloader              |
+| `Sequential_Model.py`         | GRU-based MIL anomaly detection model         |
+| `Training_Model.py`           | Training script                               |
+| `thresholds.py`               | ROC, AUC, threshold evaluation                |
+| `website.py`                  | Streamlit demo interface                      |
+| `verification.py`             | Ensemble inference module                     |
+| `metadata.csv`                | Filepaths and labels for dataset              |
+| `requirements.txt`            | Python dependencies                           |
 
 ---
 
